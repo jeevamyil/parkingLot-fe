@@ -1,0 +1,27 @@
+#greeting_msg {
+    text-align: center;
+}
+
+#info_msg div{
+    display: inline-block;
+
+}
+
+#info_msg{
+    
+    text-align: center;
+}
+#msg_floor{
+    text-align: right;
+    margin-right: 30px;
+    
+}
+#msg_capacity{
+    
+    text-align: left;
+    margin-left: 30px;
+}
+#btn_proceed{
+    margin-top: 100px;
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+{
+  "CHECKIN": [
+    {
+      "vehileNumber": "uorwnogousruo",
+      "vehicleType": "",
+      "lotName": "B",
+      "time": "function toISOString() { [native code] }01:47",
+      "id": 1
+    },
+    {
+      "vehileNumber": "rwppi",
+      "vehicleType": "",
+      "lotName": "9",
+      "time": "2022-01-31T19:17:45.121Z02:48",
+      "id": 2
+    },
+    {
+      "vehileNumber": "rpk2",
+      "vehicleType": "",
+      "lotName": "l",
+      "time": "2022-01-31T102:56",
+      "id": 3
+    },
+    {
+      "vehileNumber": "rj3p2-i9",
+      "vehicleType": "",
+      "lotName": "j",
+      "time": "2022-01-31T12:57",
+      "id": 4
+    },
+    {
+      "vehileNumber": "982jowrj",
+      "vehicleType": "Bike",
+      "lotName": "A",
+      "time": "2022-01-31T01:04",
+      "id": 5
+    },
+    {
+      "vehileNumber": "2830",
+      "vehicleType": "Cycle",
+      "lotName": "a",
+      "time": "2022-01-31T13:10",
+      "id": 6
+    }
+  ]
+}

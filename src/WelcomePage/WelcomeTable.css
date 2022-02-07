@@ -1,0 +1,12 @@
+/*#table_wlcm,th,td{
+    text-align: center;
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+
+#table_wlcm{
+    margin:auto;
+}
+#table_wlcm th,td{
+    padding: 10px 100px;
+}*/

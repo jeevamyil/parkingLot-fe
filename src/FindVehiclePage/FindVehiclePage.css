@@ -1,0 +1,5 @@
+.historytable {
+    width: fit-content;
+    border-collapse: collapse;
+    border: 1px black solid;
+}
