@@ -1,11 +1,11 @@
 export function InitAPI(){
-    return fetch(`http://localhost:8088/parkingLotAPI/init`);
+    return fetch(`http://localhost:8888/init`);
 }
 
 export function checkinAPI({ data }) {
 
     console.log(data);
-    return fetch(`http://localhost:8088/parkingLotAPI/checkin`, {
+    return fetch(`http://localhost:8888/checkin`, {
         method: 'POST',
         //headers:{"Content-type":"application/x-www-form-urlencoded: charset= UTF-8"},
         body: new URLSearchParams("input=" + data)
@@ -15,7 +15,7 @@ export function checkinAPI({ data }) {
 export function checkoutAPI({ data }) {
 
     console.log(data);
-     return  fetch(`http://localhost:8088/parkingLotAPI/checkout`, {
+     return  fetch(`http://localhost:8888/checkout`, {
         method: 'POST',
         //headers:{"Content-type":"application/x-www-form-urlencoded: charset= UTF-8"},
         body: new URLSearchParams("input=" + data)
@@ -26,7 +26,7 @@ export function checkoutAPI({ data }) {
 export function findAPI({ data }) {
 
     console.log(data);
-    return  fetch(`http://localhost:8088/parkingLotAPI/find`, {
+    return  fetch(`http://localhost:8888/find`, {
         method: 'POST',
         //headers:{"Content-type":"application/x-www-form-urlencoded: charset= UTF-8"},
         body: new URLSearchParams("input=" + data)
@@ -37,5 +37,5 @@ export function findAPI({ data }) {
 
 
 export function showLotsAPI() {
-    return fetch(`http://localhost:8088/parkingLotAPI/showlots`);
+    return fetch(`http://localhost:8888/showlots`);
 }
